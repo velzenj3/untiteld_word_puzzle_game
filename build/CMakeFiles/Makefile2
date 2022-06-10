@@ -81,12 +81,12 @@ clean: CMakeFiles/WPG.dir/clean
 CMakeFiles/WPG.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WPG.dir/build.make CMakeFiles/WPG.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WPG.dir/build.make CMakeFiles/WPG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jeffrey/untiteld_puzzle_game/untiteld_word_puzzle_game/build/CMakeFiles --progress-num=1,2 "Built target WPG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jeffrey/untiteld_puzzle_game/untiteld_word_puzzle_game/build/CMakeFiles --progress-num=1,2,3 "Built target WPG"
 .PHONY : CMakeFiles/WPG.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WPG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffrey/untiteld_puzzle_game/untiteld_word_puzzle_game/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffrey/untiteld_puzzle_game/untiteld_word_puzzle_game/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/WPG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffrey/untiteld_puzzle_game/untiteld_word_puzzle_game/build/CMakeFiles 0
 .PHONY : CMakeFiles/WPG.dir/rule

@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/WPG.dir/src/main.cpp.o -o WPG 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/WPG.dir/src/GridGenerator.cpp.o CMakeFiles/WPG.dir/src/main.cpp.o -o WPG 

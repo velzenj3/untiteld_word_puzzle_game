@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/WPG.dir/src/GridGenerator.cpp.o"
+  "CMakeFiles/WPG.dir/src/GridGenerator.cpp.o.d"
   "CMakeFiles/WPG.dir/src/main.cpp.o"
   "CMakeFiles/WPG.dir/src/main.cpp.o.d"
   "WPG"

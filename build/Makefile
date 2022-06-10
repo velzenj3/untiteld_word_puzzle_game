@@ -129,6 +129,30 @@ WPG/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WPG.dir/build.make CMakeFiles/WPG.dir/build
 .PHONY : WPG/fast
 
+src/GridGenerator.o: src/GridGenerator.cpp.o
+.PHONY : src/GridGenerator.o
+
+# target to build an object file
+src/GridGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WPG.dir/build.make CMakeFiles/WPG.dir/src/GridGenerator.cpp.o
+.PHONY : src/GridGenerator.cpp.o
+
+src/GridGenerator.i: src/GridGenerator.cpp.i
+.PHONY : src/GridGenerator.i
+
+# target to preprocess a source file
+src/GridGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WPG.dir/build.make CMakeFiles/WPG.dir/src/GridGenerator.cpp.i
+.PHONY : src/GridGenerator.cpp.i
+
+src/GridGenerator.s: src/GridGenerator.cpp.s
+.PHONY : src/GridGenerator.s
+
+# target to generate assembly for a file
+src/GridGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WPG.dir/build.make CMakeFiles/WPG.dir/src/GridGenerator.cpp.s
+.PHONY : src/GridGenerator.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... WPG"
+	@echo "... src/GridGenerator.o"
+	@echo "... src/GridGenerator.i"
+	@echo "... src/GridGenerator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
